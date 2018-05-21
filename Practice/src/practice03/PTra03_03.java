@@ -30,6 +30,5 @@ public class PTra03_03 {
 		} else {
 			System.out.println("3で割り切れない数字です");
 		}
-
 	}
 }

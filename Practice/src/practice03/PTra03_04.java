@@ -41,10 +41,6 @@ public class PTra03_04 {
 			
 		}if(num %400==0);{
 			System.out.println(num +"年はうるう年です。");
-		
-			
 		}
-
-
 	}
 }
