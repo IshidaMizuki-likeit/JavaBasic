@@ -22,7 +22,6 @@ public class PTra04_03 {
 
 			System.out.println("ランダムで生成された数値：" + random);
 		}
-
 		System.out.println("プログラムを終了します。");
 	}
 }

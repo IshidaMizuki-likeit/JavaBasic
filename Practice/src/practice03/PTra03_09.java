@@ -56,7 +56,5 @@ public class PTra03_09 {
 		default:
 			System.out.println("０～６の整数を入力して下さい。");
 		}
-			
-
 	}
 }

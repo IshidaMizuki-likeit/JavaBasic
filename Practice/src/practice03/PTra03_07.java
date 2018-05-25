@@ -51,7 +51,5 @@ public class PTra03_07 {
 			default:
 				System.out.println("選択したのは，１～５以外です");
 		}	
-		
-
 	}
 }

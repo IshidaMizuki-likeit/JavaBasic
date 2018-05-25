@@ -47,15 +47,9 @@ public class PTra05_01 {
 			
 		case 0:
 			System.out.println("「前の単元を復習してください」");
-
+			
 		default:
 			System.out.println("「正しい数値を入れてください」");
-				
-		
-			
 		}
-		
-		
-		
 	}
 }
