@@ -15,12 +15,9 @@ public class PTra06_07 {
 			}
 				for(int j=1;j<=5-i;j++) {
 					System.out.print("□");
-					if(j+i==5) {
-						System.out.println("");
+				}	
+					System.out.println("");
 					}
-				}
-			}
-		System.out.println("");
 		for(int n=1;n<=5;n++) {
 			for(int l=1;l<=5-n;l++) {
 				System.out.print("■");

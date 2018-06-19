@@ -19,28 +19,17 @@ public class PTra07_01 {
 
 
 		// ★ 変数arrayに格納されている値を前から順番に全て表示してください
-		for(int i=0;i<= 4;i++){
-			for(int j=1; j<=i; j++){
-				System.out.print("■");
-			}
-				for(int j=1; j<=5-i; j++) {
-					System.out.print("□");
-				if(j+i==5) {
-					System.out.println("");
-				}
-			  }
-			}
-			for(int k=0; k<=5; k++) {
-				for(int l=1; l<=k; l++) {
-					System.out.print("□");
-				
-			}
-				for(int l=1; l<=5-k; l++) {
-					System.out.print("■");
-					if(k+l==5) {
-						System.out.println("");
-				}
-			  }
-			}
+		int arr[] = new int[5];
+			arr[0] =1;
+			arr[1] =4;
+			arr[2] =7;
+			arr[3] =10;
+			arr[4] =13;
+			
+			System.out.println(arr[0]);
+			System.out.println(arr[1]);
+			System.out.println(arr[2]);
+			System.out.println(arr[3]);
+			System.out.println(arr[4]);
 	}
 }
