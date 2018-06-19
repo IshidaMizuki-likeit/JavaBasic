@@ -9,7 +9,7 @@ package practice06;
 public class PTra06_07 {
 	public static void main(String[] args) {
 
-		for(int i=0;i<=4;i++){
+		for(int i=0;i<=5;i++){
 			for(int j=1;j<=i;j++) { 
 				System.out.print("■");
 			}
@@ -20,18 +20,16 @@ public class PTra06_07 {
 					}
 				}
 			}
-		for(int n=0;n<=5;n++) {
-			for(int l=1;l<=n;l++) {
-				System.out.print("□");
-			}
+		System.out.println("");
+		for(int n=1;n<=5;n++) {
 			for(int l=1;l<=5-n;l++) {
 				System.out.print("■");
-				if(n+l==5) {
-					System.out.println("");
-			
 			}
-		  }
-		}
+				for(int l=1;l<=n;l++) {
+					System.out.print("□");
+					}
+			System.out.println("");
+			}
 		// ★ for文を使って、以下のような出力になるようにしてください
 		/*
 		 * 出力結果例
